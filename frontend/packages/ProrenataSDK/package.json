@@ -1,0 +1,27 @@
+{
+  "name": "prorenatasdk",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "bin": {
+    "ProrenataSDK": "bin/global.js"
+  },
+  "scripts": {
+    "start": "nodemon src/index.ts ",
+    "build": " tsc --project ./"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.4",
+    "openapi-typescript": "^4.0.1",
+    "typescript": "^4.0.2"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "nodemon": "^2.0.13"
+  }
+}
